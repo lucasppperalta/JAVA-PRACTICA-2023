@@ -6,4 +6,10 @@ otro espacio de memoria realice la conversión de esas libras a kilogramos. Util
 una constante de los valores que no van a cambiar en esta conversión. Muestre el
 resultado por pantalla
  */
+public static void main(String[] args) {
+    double miPeso = 182.98;
+
+    final double conversion_kilogramos = miPeso * 0.453592;
+    System.out.println("Mi peso en libras es: " + miPeso + " convertido a kilogramos sería: " + conversion_kilogramos + "kg");
+}
 }
